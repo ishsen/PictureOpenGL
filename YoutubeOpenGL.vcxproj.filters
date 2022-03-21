@@ -43,11 +43,8 @@
     <Filter Include="Resource Files\models\map\textures">
       <UniqueIdentifier>{72440452-fcb3-40f8-8295-1a659659925c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\scroll">
-      <UniqueIdentifier>{bee3eb58-5095-47eb-8905-c4e72c23211d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resource Files\scroll\textures">
-      <UniqueIdentifier>{36e818cc-e108-44c0-9910-4be6dd7a9485}</UniqueIdentifier>
+    <Filter Include="Resource Files\videos">
+      <UniqueIdentifier>{a9527a57-6439-49a7-bc69-ca4b0e8ca4d3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -192,8 +189,8 @@
     <Image Include="models\map\textures\Material.001_baseColor.png">
       <Filter>Resource Files\models\map\textures</Filter>
     </Image>
-    <Image Include="models\scroll\textures\lambert4SG_baseColor.png">
-      <Filter>Resource Files\scroll\textures</Filter>
+    <Image Include="videos\opengl.gif">
+      <Filter>Resource Files\videos</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
@@ -214,12 +211,6 @@
     </None>
     <None Include="models\map\scene.bin">
       <Filter>Resource Files\models\map</Filter>
-    </None>
-    <None Include="models\scroll\scene.gltf">
-      <Filter>Resource Files\scroll</Filter>
-    </None>
-    <None Include="models\scroll\scene.bin">
-      <Filter>Resource Files\scroll</Filter>
     </None>
   </ItemGroup>
 </Project>

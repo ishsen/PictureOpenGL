@@ -195,18 +195,16 @@
     <Image Include="models\bunny\baseColor.png" />
     <Image Include="models\bunny\metallicRoughness.png" />
     <Image Include="models\map\textures\Material.001_baseColor.png" />
-    <Image Include="models\scroll\textures\lambert4SG_baseColor.png" />
     <Image Include="models\sword\textures\Object001_mtl_baseColor.jpeg" />
     <Image Include="planks.png" />
     <Image Include="planksSpec.png" />
+    <Image Include="videos\opengl.gif" />
   </ItemGroup>
   <ItemGroup>
     <None Include="models\bunny\scene.bin" />
     <None Include="models\bunny\scene.gltf" />
     <None Include="models\map\scene.bin" />
     <None Include="models\map\scene.gltf" />
-    <None Include="models\scroll\scene.bin" />
-    <None Include="models\scroll\scene.gltf" />
     <None Include="models\sword\scene.bin" />
     <None Include="models\sword\scene.gltf" />
   </ItemGroup>
