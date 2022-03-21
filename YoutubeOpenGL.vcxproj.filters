@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\imgui">
+      <UniqueIdentifier>{bb03c982-2fa5-41b0-aee2-8cc4c032337f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imgui">
+      <UniqueIdentifier>{de1a2bb0-19c9-49b3-8e50-d8bb372bbd03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{5f79d1cd-39e8-4b22-8f55-c13aeb369e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{ddaea1ed-3f5b-4303-b339-5f21a99c47c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\models">
+      <UniqueIdentifier>{167b71e2-5929-4d72-bb65-db113815bcfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\models\bunny">
+      <UniqueIdentifier>{d273a0d5-131e-4a70-8674-7afeaded4f84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\models\sword">
+      <UniqueIdentifier>{c8b2fc07-0b17-423d-844b-3aaad3acf025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\models\sword\textures">
+      <UniqueIdentifier>{e918c9d1-543b-4219-a6b4-fa0699df2653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\models\map">
+      <UniqueIdentifier>{a6010a3a-432e-4207-a5c4-6a837d976486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\models\map\textures">
+      <UniqueIdentifier>{72440452-fcb3-40f8-8295-1a659659925c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\scroll">
+      <UniqueIdentifier>{bee3eb58-5095-47eb-8905-c4e72c23211d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\scroll\textures">
+      <UniqueIdentifier>{36e818cc-e108-44c0-9910-4be6dd7a9485}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_glfw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_glfw.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_opengl3.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="light.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="light.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="default.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </Text>
+    <Text Include="default.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\container.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="planksSpec.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="planks.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="models\bunny\baseColor.png">
+      <Filter>Resource Files\models\bunny</Filter>
+    </Image>
+    <Image Include="models\bunny\metallicRoughness.png">
+      <Filter>Resource Files\models\bunny</Filter>
+    </Image>
+    <Image Include="models\sword\textures\Object001_mtl_baseColor.jpeg">
+      <Filter>Resource Files\models\sword\textures</Filter>
+    </Image>
+    <Image Include="models\map\textures\Material.001_baseColor.png">
+      <Filter>Resource Files\models\map\textures</Filter>
+    </Image>
+    <Image Include="models\scroll\textures\lambert4SG_baseColor.png">
+      <Filter>Resource Files\scroll\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="models\bunny\scene.bin">
+      <Filter>Resource Files\models\bunny</Filter>
+    </None>
+    <None Include="models\bunny\scene.gltf">
+      <Filter>Resource Files\models\bunny</Filter>
+    </None>
+    <None Include="models\sword\scene.bin">
+      <Filter>Resource Files\models\sword</Filter>
+    </None>
+    <None Include="models\sword\scene.gltf">
+      <Filter>Resource Files\models\sword</Filter>
+    </None>
+    <None Include="models\map\scene.gltf">
+      <Filter>Resource Files\models\map</Filter>
+    </None>
+    <None Include="models\map\scene.bin">
+      <Filter>Resource Files\models\map</Filter>
+    </None>
+    <None Include="models\scroll\scene.gltf">
+      <Filter>Resource Files\scroll</Filter>
+    </None>
+    <None Include="models\scroll\scene.bin">
+      <Filter>Resource Files\scroll</Filter>
+    </None>
+  </ItemGroup>
+</Project>
